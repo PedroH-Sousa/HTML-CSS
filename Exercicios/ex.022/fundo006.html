@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alinhamento</title>
     <style>
         body{
+           /* 
+           
             height: 97vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            
+            shorthand backgroun - color > image > position > repeat > [size] não funciona apesar de estar na regra > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin:auto;
             border: 1px solid darkblue;
@@ -32,7 +40,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo quam dolorum aperiam, reiciendis sed quod error quos! Ut quidem expedita incidunt harum alias facilis saepe, perferendis pariatur nostrum quo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, libero id quo optio hic delectus eum dicta pariatur consectetur? Ducimus ratione sunt iusto dicta quaerat accusamus unde nihil consectetur illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. A officiis dolore pariatur maxime, maiores soluta. Deserunt, magnam amet. Similique enim repellendus alias quas commodi deserunt ipsam distinctio quos sunt a!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nemo quam dolorum aperiam, reiciendis sed quod error quos! Ut quidem expedita incidunt harum alias facilis saepe, perferendis pariatur nostrum quo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, libero id quo optio hic delectus eum dicta pariatur consectetur? Ducimus ratione sunt iusto dicta quaerat accusamus unde nihil consectetur illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. A officiis dolore pariatur maxime, maiores soluta. Deserunt, magnam amet. Similique enim repellendus alias quas commodi deserunt ipsam distinctio quos sunt a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi velit odio optio architecto nisi amet fugiat tenetur consequatur minima unde deserunt consequuntur atque, dicta est ipsum quisquam blanditiis qui aliquid. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eum enim, distinctio ipsam officiis rerum corporis sapiente perspiciatis quo necessitatibus consectetur! Voluptatem, quidem amet animi in perferendis maiores veniam est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nostrum quae ad eaque nobis inventore velit magnam quisquam delectus consequuntur ipsam nulla, aspernatur, quibusdam esse rerum sint temporibus, id soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ut maiores nesciunt, officiis consequuntur ex facere sed, sequi nulla quaerat, labore perferendis recusandae sapiente dolore nostrum quis illum distinctio laudantium?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quibusdam eaque at omnis, nostrum ex illo facilis incidunt quis, numquam quaerat soluta tempore optio placeat! Aliquam nihil autem laboriosam ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque odio corrupti cum hic accusamus delectus cumque quae accusantium neque? A ab nesciunt similique laboriosam modi natus doloribus reprehenderit ipsum soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus velit quo earum ullam eos, error ducimus autem? Tenetur vel qui, laboriosam officiis labore nisi, vero natus repellat modi aliquid quibusdam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, eligendi dolorum ab, ex odit possimus eius amet distinctio consectetur adipisci cum quas ratione maxime voluptate, voluptas architecto culpa! Explicabo, quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam magnam, ipsa labore debitis sequi optio deleniti at pariatur, natus excepturi perferendis libero vitae molestiae placeat repudiandae quia eaque aperiam quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt neque laborum minus autem blanditiis ipsam facilis sit? Qui, adipisci vel molestias a facilis eos repellendus ipsa enim vero dolor.</p>
     </main>
 </body>
 </html>
