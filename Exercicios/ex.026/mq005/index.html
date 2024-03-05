@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repudiandae molestias doloremque fugit labore ratione molestiae, assumenda illum? Dolore, repudiandae! Amet reprehenderit, modi harum accusantium vel qui deleniti tenetur ab? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, dolor? Veniam eaque quaerat, ex temporibus explicabo autem facere facilis molestiae minus quas placeat est asperiores non rem quae cumque repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus officia mollitia recusandae accusamus unde esse, et quidem non veniam dignissimos voluptatem, sint blanditiis nesciunt in aspernatur a. Porro, perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, facilis? Animi doloribus laborum neque nihil numquam fugiat voluptates, error veniam, quo exercitationem hic voluptatum fuga quisquam velit accusamus fugit provident! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore eveniet quisquam, ab itaque labore! Laudantium explicabo placeat in temporibus laboriosam fuga aut neque modi culpa, molestias eum quisquam veniam?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt tenetur optio inventore eum soluta nulla voluptatem facere blanditiis voluptas? Quae dignissimos blanditiis ratione voluptates libero? Dolore quidem laudantium dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ratione a impedit laboriosam reprehenderit magni cupiditate natus vero quo optio atque soluta voluptatibus mollitia! Ullam porro consectetur repellat necessitatibus nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quas fuga magni nisi eum similique non aliquid, soluta illo labore quod dolore quis odio pariatur iure corporis, nemo repudiandae libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, inventore. Vero possimus, impedit sed fuga odit repellendus, voluptatum quas fugiat nulla aliquam, sint tempore temporibus dolore similique maiores facere nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ratione amet accusamus voluptatem sed soluta hic sunt odit magni culpa. Sequi dolores illo, aliquid facilis veritatis itaque magnam saepe repudiandae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur maiores, quos laudantium doloremque natus laboriosam modi nulla, iusto corrupti eligendi, expedita numquam aut libero neque! Ipsam magnam quod nostrum! Veritatis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe cum eveniet iste earum. Enim voluptatibus perspiciatis nesciunt reprehenderit, placeat similique aliquam, beatae magnam sit doloribus est, fuga dignissimos quas nam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci eligendi rerum porro quisquam qui ad quam repellendus provident odit, quae accusantium veniam commodi! Nostrum, suscipit! Temporibus inventore at qui recusandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsum veniam doloremque qui culpa error, dolores quibusdam dolorum fugiat atque dolor magnam nobis. Porro quos, ex perspiciatis sunt a illo.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display =='block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }         
+        }
+    </script>
+</body>
+</html>
